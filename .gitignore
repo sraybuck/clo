@@ -3,3 +3,4 @@ images
 *.docx
 palette.JPG
 logo
+.DS_Store
