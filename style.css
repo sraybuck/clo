@@ -1,55 +1,101 @@
 body{
   margin: 0px;
 }
+/*TEXT*/
 p{
-  font-family: "Helvetica", sans-serif;
-  font-size: 1.5em;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
   line-height: 1.5em;
 }
 h1{
-  font-family: "Helvetica", sans-serif;
+  font-size: 3.5em;
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  position: relative;
+  top: 175px;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
 }
 h2{
-  font-family: "Helvetica", sans-serif;
-}
-h3{
-  font-family: 'Fira Sans', sans-serif;
   font-size: 3em;
-}
-li{
-  font-family: 'Fira Sans', sans-serif;
-}
-#headshot{
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-}
-.light-blue{
-  background-color: #46b9d3;
-}
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-.left{
-  display: inline;
-  float: left;
-}
-.right{
-  display: inline;
-  float: right;
-}
-.generic_splash{
-  background-image: url(images/design1.png);
-  height:350px;
-  width: 100%;
-}
-section.generic_splash h3{
+  font-family: "Fira Sans", sans-serif;
   text-align: center;
   position: relative;
   top: 175px;
 }
+li{
+  font-family: 'Fira Sans', sans-serif;
+}
+#navbar a{
+  color: #016171;
+}
+
+/*SECTIONS*/
+.light-blue{
+  background-color: #46b9d3;
+}
+.splash{
+  background-image: url(images/design1.png);
+  height: 450px;
+  width: 100%;
+}
+.index_splash{
+  background-image: url(images/design1.png);
+  height: 450px;
+  width: 100%;
+}
+.footer{
+  height: 63px;
+  width: 100%;
+  background-color: #d8eff5;
+}
+
+
+/*IMAGES*/
+#about-headshot{
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+
+/*FORMATTING*/
+.container {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.foot_container{
+  width: 1200px;
+  height: 63px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.quoted p{
+  margin: 3px;
+  font-size: 1.1em;
+}
+.footer p{
+  display: inline;
+  position: relative;
+  top: 20px;
+  font-size: 1.1em;
+}
+.about_left{
+  width: 25%;
+  height: auto;
+  display: inline;
+  float: left;
+}
+.about_right{
+  width: 75%;
+  height: auto;
+  display: inline;
+  float: right;
+}
+
+
+/*NAVBAR*/
 #navbar{
   display: block;
   position: fixed;
@@ -90,6 +136,28 @@ ul#menu li a.button:hover {
 ul#menu li a.button:visited {
 	color: #016171;
 }
-ul.list,{
+ul.list{
   margin: 0px 0px 0px 30px;
+}
+
+
+/*SOCIAL*/
+.fa{
+    padding: 13px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+    position: relative;
+    top: 11px;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+    float: right;
+    margin-right: 10px;
 }
